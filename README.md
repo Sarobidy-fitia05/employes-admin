@@ -32,8 +32,8 @@ Question 3.2 (Salaire de 500€) L'exercice impose une validation min 1500 pour 
 Exercice 4 : Modification d'un employé
 Question 4.1 (Méthode HTTP) :  Avec json-server, la mise à jour d'une ressource existante utilise généralement la méthode PUT (ou parfois PATCH)
 
-
-
+J’ai créé deux branches : feat/exercice1 et feat/question2.
+La branche feat/exercice1 contient l’exercice 1, tandis que feat/question2 contient les autres exercices.
 
 Question 4.2 (useRecordContext) :Ce hook permet d'accéder aux données de l'employé courant (pour le titre de la page par exemple) et il est undefined tant que la requête de récupération n'a pas abouti
 
