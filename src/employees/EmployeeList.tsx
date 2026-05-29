@@ -6,6 +6,8 @@ import {
     BooleanField,
     SearchInput,
     TextInput,
+    EditButton,
+    DeleteButton,
 } from "react-admin";
 import { EmployeeFilters } from "./component/EmployeeFilters";
 const employeeFilters = [
@@ -15,14 +17,17 @@ const employeeFilters = [
 ];
 
 export const EmployeeList = () => (
-    <List filters={employeeFilters}>
-        <Datagrid rowClick="edit">
+    <List filters={employeeFilters} perPage={5}>
+        <Datagrid rowClick="show">
             <TextField source="prenom" />
             <TextField source="nom" />
             <TextField source="email" />
             <TextField source="departement" />
             <NumberField source="salaire" />
             <BooleanField source="actif" />
+
+             <EditButton />
+            <DeleteButton />    
         </Datagrid>
     </List>
 );

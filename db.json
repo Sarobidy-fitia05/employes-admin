@@ -1,13 +1,18 @@
 {
-  "employes": [
+  "employees": [
     {
       "id": 1,
-      "prenom": "Alice",
+      "prenom": "Alicia",
       "nom": "Martin",
       "email": "alice@company.com",
       "departement": "Informatique",
       "salaire": 2800,
-      "actif": true
+      "actif": false,
+      "firstname": "Martin ",
+      "lastname": "alicia",
+      "department": "Informatique",
+      "salary": 15000,
+      "active": false
     },
     {
       "id": 2,
@@ -26,6 +31,62 @@
       "departement": "RH",
       "salaire": 2600,
       "actif": false
+    },
+    {
+      "id": 4,
+      "prenom": "David",
+      "nom": "Rousseau",
+      "email": "david@company.com",
+      "departement": "Informatique",
+      "salaire": 3100,
+      "actif": true
+    },
+    {
+      "id": 5,
+      "prenom": "Emma",
+      "nom": "Petit",
+      "email": "emma@company.com",
+      "departement": "Design",
+      "salaire": 2400,
+      "actif": true
+    },
+    {
+      "id": 6,
+      "prenom": "Lucas",
+      "nom": "Moreau",
+      "email": "lucas@company.com",
+      "departement": "Marketing",
+      "salaire": 2900,
+      "actif": false
+    },
+    {
+      "id": 7,
+      "prenom": "Chloé",
+      "nom": "Dubois",
+      "email": "chloe@company.com",
+      "departement": "RH",
+      "salaire": 2700,
+      "actif": true
+    },
+    {
+      "actif": true,
+      "prenom": "zag",
+      "nom": "zig",
+      "email": "teste@gmail.com",
+      "departement": "Finance",
+      "salaire": 120000,
+      "id": 8,
+      "salary": null,
+      "active": false
+    },
+    {
+      "actif": true,
+      "prenom": "creer",
+      "nom": "une",
+      "email": "u@mail.com",
+      "departement": "RH",
+      "salaire": 12000,
+      "id": 9
     }
   ]
 }
