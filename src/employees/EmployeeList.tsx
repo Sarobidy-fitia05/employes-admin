@@ -7,7 +7,7 @@ import {
     SearchInput,
     TextInput,
 } from "react-admin";
-
+import { EmployeeFilters } from "./component/EmployeeFilters";
 const employeeFilters = [
     <SearchInput source="q" alwaysOn />,
     <TextInput source="nom" label="Nom" />,
