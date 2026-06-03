@@ -40,53 +40,63 @@
       "departement": "Informatique",
       "salaire": 3100,
       "actif": true
+    }
+  ],
+  "interns": [
+    {
+      "id": 1,
+      "first_name": "Tiana",
+      "last_name": "Rakotomalala",
+      "email": "tiana@example.com",
+      "department": "IT",
+      "school": "ENI Fianarantsoa",
+      "paid": true,
+      "salary": 400,
+      "manager_id": 1
+    },
+    {
+      "id": 2,
+      "first_name": "Aina",
+      "last_name": "Raharisoa",
+      "email": "aina@example.com",
+      "department": "RH",
+      "school": "ISPM",
+      "paid": false,
+      "salary": 0,
+      "manager_id": 2
+    },
+    {
+      "id": 3,
+      "first_name": "Hery",
+      "last_name": "Rabe",
+      "email": "hery@example.com",
+      "department": "Finance",
+      "school": "CNTEMAD",
+      "paid": true,
+      "salary": 350,
+      "manager_id": 3
+    },
+    {
+      "id": 4,
+      "first_name": "Fara",
+      "last_name": "Razanamparany",
+      "email": "fara@example.com",
+      "department": "Marketing",
+      "school": "ESMIA",
+      "paid": true,
+      "salary": 300,
+      "manager_id": 4
     },
     {
       "id": 5,
-      "prenom": "Emma",
-      "nom": "Petit",
-      "email": "emma@company.com",
-      "departement": "Design",
-      "salaire": 2400,
-      "actif": true
-    },
-    {
-      "id": 6,
-      "prenom": "Lucas",
-      "nom": "Moreau",
-      "email": "lucas@company.com",
-      "departement": "Marketing",
-      "salaire": 2900,
-      "actif": false
-    },
-    {
-      "id": 7,
-      "prenom": "Chloé",
-      "nom": "Dubois",
-      "email": "chloe@company.com",
-      "departement": "RH",
-      "salaire": 2700,
-      "actif": true
-    },
-    {
-      "actif": true,
-      "prenom": "zag",
-      "nom": "zig",
-      "email": "teste@gmail.com",
-      "departement": "Finance",
-      "salaire": 120000,
-      "id": 8,
-      "salary": null,
-      "active": false
-    },
-    {
-      "actif": true,
-      "prenom": "creer",
-      "nom": "une",
-      "email": "u@mail.com",
-      "departement": "RH",
-      "salaire": 12000,
-      "id": 9
+      "first_name": "Mickael",
+      "last_name": "Razafindrakoto",
+      "email": "mickael@example.com",
+      "department": "IT",
+      "school": "IT University",
+      "paid": false,
+      "salary": 0,
+      "manager_id": 5
     }
   ]
 }

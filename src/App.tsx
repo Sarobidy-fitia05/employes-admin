@@ -3,6 +3,7 @@
 import { Admin, Resource } from 'react-admin';
 import { dataProvider } from "./dataProvider";
 import { EmployeeList } from "./employees/EmployeeList";
+import { InternList } from "./interns/InternList";
 import { EmployeeCreate } from "./employees/EmployeeCreate";
 import { EmployeeEdit } from "./employees/EmployeeEdit";
 import { EmployeeShow  } from "./employees/EmployeeShow";
@@ -15,6 +16,10 @@ export const App = () => (
         create={EmployeeCreate}
         edit={EmployeeEdit}
         show={EmployeeShow}
+/>
+      <Resource
+        name="interns"
+        list={InternList}
 />
   </Admin>
 );
